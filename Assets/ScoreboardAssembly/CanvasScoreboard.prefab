@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 222963615735877076}
   - component: {fileID: 114099581035752292}
   m_Layer: 5
-  m_Name: FuelScoreTextBlue2 (1)
+  m_Name: FuelScoreTextBlue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,7 +1343,7 @@ GameObject:
   - component: {fileID: 222499758054806248}
   - component: {fileID: 114600886145358642}
   m_Layer: 5
-  m_Name: FuelScoreTextBlue1 (1)
+  m_Name: FuelScoreTextBlue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
