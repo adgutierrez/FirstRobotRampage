@@ -5939,6 +5939,8 @@ GameObject:
   - component: {fileID: 82734177505247762}
   - component: {fileID: 82902986180122102}
   - component: {fileID: 82815650953081282}
+  - component: {fileID: 1834510756}
+  - component: {fileID: 1834510768}
   m_Layer: 0
   m_Name: RobotAssembly
   m_TagString: Untagged
@@ -6480,6 +6482,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1834510756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361657053327108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 1834510768}
+  viewIdField: 0
+  InstantiationId: 1
+  isRuntimeInstantiated: 0
+--- !u!114 &1834510768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361657053327108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
 --- !u!1 &1369549587458680
 GameObject:
   m_ObjectHideFlags: 0
@@ -6619,7 +6658,7 @@ WheelCollider:
     spring: 33932.438
     damper: 5429.19
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19619998
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 0.40483204
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -8899,10 +8938,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.175
   m_SuspensionSpring:
-    spring: 33931.848
-    damper: 5429.0957
+    spring: 33931.855
+    damper: 5429.0967
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.19619998
   m_ForceAppPointDistance: 0.40483204
   m_Mass: 20
   m_WheelDampingRate: 0.25
