@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace RobotBaseUnit
+namespace Photon.Pun.Demo.PunBasics
 {
     [RequireComponent(typeof (CarController))]
     public class CarAudio : MonoBehaviour

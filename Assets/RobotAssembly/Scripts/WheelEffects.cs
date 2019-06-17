@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace RobotBaseUnit
+namespace Photon.Pun.Demo.PunBasics
 {
     [RequireComponent(typeof (AudioSource))]
     public class WheelEffects : MonoBehaviour

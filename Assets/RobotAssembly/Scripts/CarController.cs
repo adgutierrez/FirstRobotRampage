@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace RobotBaseUnit
+namespace Photon.Pun.Demo.PunBasics
 {
     internal enum CarDriveType
     {
@@ -32,7 +32,7 @@ namespace RobotBaseUnit
         [SerializeField] private float m_MaxHandbrakeTorque;
         [SerializeField] private float m_Downforce = 100f;
         [SerializeField] private SpeedType m_SpeedType;
-        [SerializeField] private float m_Topspeed = 100;
+        [SerializeField] private float m_Topspeed = 50;
         [SerializeField] private static int NoOfGears = 5;
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;

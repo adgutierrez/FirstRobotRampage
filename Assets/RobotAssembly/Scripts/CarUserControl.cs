@@ -2,10 +2,10 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-namespace RobotBaseUnit
+namespace Photon.Pun.Demo.PunBasics
 {
     [RequireComponent(typeof (CarController))]
-    public class CarUserControl : MonoBehaviour
+    public class CarUserControl : MonoBehaviourPun
     {
         private CarController m_Car; // the car controller we want to use
 

@@ -339,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1286780806170264, guid: 7e94a87cf7d1673408813c5796cd8c6e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e94a87cf7d1673408813c5796cd8c6e, type: 3}
 --- !u!1001 &806256743
@@ -499,10 +503,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1834510756, guid: 608010c6606cf3247b56b1d2d00735a8, type: 3}
+      propertyPath: viewIdField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 146960304363386864, guid: 608010c6606cf3247b56b1d2d00735a8,
+        type: 3}
+      propertyPath: m_SuspensionSpring.spring
+      value: 32734.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 146960304363386864, guid: 608010c6606cf3247b56b1d2d00735a8,
+        type: 3}
+      propertyPath: m_SuspensionSpring.damper
+      value: 5237.476
+      objectReference: {fileID: 0}
+    - target: {fileID: 146960304363386864, guid: 608010c6606cf3247b56b1d2d00735a8,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.1962
+      objectReference: {fileID: 0}
     - target: {fileID: 146759283064928940, guid: 608010c6606cf3247b56b1d2d00735a8,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.19619998
+      value: 0.1962
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 608010c6606cf3247b56b1d2d00735a8, type: 3}

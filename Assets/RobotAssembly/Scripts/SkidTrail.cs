@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace RobotBaseUnit
+namespace Photon.Pun.Demo.PunBasics
 {
     public class SkidTrail : MonoBehaviour
     {

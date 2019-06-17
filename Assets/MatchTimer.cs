@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System;
 
 public class MatchTimer : MonoBehaviour
 {
-    float timeRemaining;
-    const float timerMax = 300;
+    public float startTime = 300f;
+    public float activeTime = 0f;
 
-    public int timeLeft = 300;
     public Text countdownText;
     public Text gameOverText;
-    public Slider timerSlider;
+
+    public Slider TimerCountdown;
 
     public bool gameOver;
 
@@ -29,10 +28,9 @@ public class MatchTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        countdownText.text = ("" + timeLeft);
-        timerSlider.value = CalculateSliderValue();
+        countdownText.text = ("" + startTime);
 
-        if (timeLeft <= 0)
+        if (startTime <= 0)
         {
             StopCoroutine("LoseTime");
             countdownText.text = "Match Over";
@@ -42,17 +40,12 @@ public class MatchTimer : MonoBehaviour
         }
     }
 
-    private float CalculateSliderValue()
-    {
-        return (timeLeft / timerMax);
-    }
-
     IEnumerator LoseTime()
     {
         while (true)
         {
             yield return new WaitForSeconds(1);
-            timeLeft--;
+            startTime--;
         }
     }
 
